@@ -60,7 +60,7 @@ def process_file(
     input_file: str = "toxic_chat.jsonl",
     output_file: str = "toxic_chat_scot.jsonl",
     train_file: str = "toxic_chat_train.jsonl",
-    model_name: str = "/root/autodl-tmp/llm/scot_guard_sft/",
+    model_name: str = "/root/autodl-tmp/llm/scot_guard/",
     tensor_parallel_size: int = 1,
     batch_size: int = 40
 ) -> None:

@@ -57,8 +57,8 @@ def find_similar_examples(query: str, response: str, train_data: List[Dict],
 def process_file(
     input_file: str = "saferlhf_2000.jsonl",
     output_file: str = "saferlhf_2000_scot.jsonl",
-    train_file: str = "saferlhf_train_v0_format.jsonl",
-    model_name: str = "/root/autodl-tmp/llm/scot_guard_sft/",
+    train_file: str = "saferlhf_train_format.jsonl",
+    model_name: str = "/root/autodl-tmp/llm/scot_guard/",
     tensor_parallel_size: int = 1,
     batch_size: int = 40
 ) -> None:
