@@ -189,9 +189,9 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @misc{scot-guard-2024,
-  title={SCoT Guard: Safety Evaluation with Chain of Thought},
-  author={Your Name},
-  year={2024},
+  title={SCoT Guard: A Safety Chain of Thought Guardrail Model},
+  author={Yuxuan Lin, Shi Liu, Dongqin Liu, Wei Mi, Xuehai Tang},
+  year={2025},
   howpublished={\url{https://github.com/yourusername/SCoT-Guard}}
 }
 ```
